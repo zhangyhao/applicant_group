@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.zhuzhiguang.applicant</groupId>
+  <artifactId>applicant-parent</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>applicantn-interfaces</module>
+  	<module>applicant-service</module>
+  	<module>applicant-web</module>
+  </modules>
+  <!-- 定义主要版本号 -->
+	<properties>
+		<spring.version>5.1.5.RELEASE</spring.version>
+		<mybatis.version>3.4.2</mybatis.version>
+		<log4j.version>1.2.17</log4j.version>
+		<log4japi.version>1.7.26</log4japi.version>
+		<druid.version>1.0.9</druid.version>
+		<mysql.version>5.1.6</mysql.version>
+		<mybatis.spring.version>1.3.0</mybatis.spring.version>
+		<jackson.version>2.9.1</jackson.version>
+		<validator.version>6.0.10.Final</validator.version>
+		<poi.version>3.9</poi.version>
+		<jstl.version>1.2</jstl.version>
+		<servlet-api.version>2.5</servlet-api.version>
+		<jsp-api.version>2.0</jsp-api.version>
+		<commons-lang3.version>3.3.2</commons-lang3.version>
+		<commons-io.version>2.2</commons-io.version>
+		<commons-net.version>3.3</commons-net.version>
+		<commons-fileupload.version>1.3.1</commons-fileupload.version>
+		<junit-version>4.12</junit-version>
+		<!-- aop使用 -->
+		<aspectj-version>1.8.0</aspectj-version>
+		<!-- 分页助手 -->
+		<pagehelper-version>5.1.2</pagehelper-version>
+	</properties>
+	
+</project>
